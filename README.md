@@ -68,13 +68,12 @@ Agrège les deltas Terreur/Empathie de tout un sous-arbre pour aider le joueur �
 
 ## 🎨 Design
 
-L'interface s'inspire des arbres de talents de jeux comme **Heroes of the Storm** et **World of Warcraft** :
+L'interface s'inspire des arbres de talents de jeux populaires, mais avec plus de nuances et une approche créative :
 - Nœuds circulaires avec bordures dorées
 - Connexions en courbes de Bézier
 - Effets de lueur (glow) selon le statut
 - Particules ambiantes
-- Thème médiéval-fantastique sombre
-Le positionnement spatial des nœuds dessine la forme globale d'une Citrouille (Objet Majeur du lore), mais le graphe est algorithmiquement impossible à compléter dans son intégralité, grâce au système complexe de conflits.
+- Le positionnement spatial des nœuds dessine la forme globale d'une Citrouille (Objet Majeur du lore), mais le graphe est algorithmiquement impossible à compléter dans son intégralité, grâce au système complexe de conflits.
 
 ---
 

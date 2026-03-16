@@ -1,14 +1,15 @@
-# 🐴 Le Cavalier Sans Tête — Arbre du Lien
+# Silent Reins : Arbre du Lien
 
-**Système de progression narratif** pour un jeu vidéo où un cavalier sans tête reconstruit son lien avec son cheval d'enfance pour briser une malédiction.
+**Système de progression narratif** pour un jeu vidéo personnel où un cavalier sans tête reconstruit son lien avec son cheval d'enfance pour briser une malédiction.
 
-> Projet portfolio — Candidature Master en Informatique, 2026
 
 ---
 
 ## 🎮 Concept
 
-L'**Arbre du Lien** remplace le système d'XP traditionnel. Au lieu de tuer des monstres pour accumuler des points, le joueur progresse en accomplissant des **activités narratives** : soigner le cheval, explorer ensemble, retrouver des souvenirs du passé.
+Cette Web APP sert d'un concept de simulation d'un des mécanismes du jeu Silent Reins que je développe. Le destrier noir n'est pas une simple monture. C'est l'ancre émotionnelle du protagoniste. Puisque le chevalier ne peut s'exprimer, c'est le cheval qui interagit avec le monde ettraduit les intentions de son maître à travers
+comportements et sons que les autres comprennent. La progression de ce lien est cruciale, car elle débloque de
+nouvelles options d'interaction et influe directement sur ledénouement du jeu
 
 Chaque talent débloqué influence la balance **Terreur / Empathie**, changeant la façon dont le monde perçoit le Cavalier Sans Tête.
 
@@ -44,24 +45,18 @@ arbre_du_lien/
 
 ---
 
-## 🚀 Lancer l'application
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
 
----
 
 ## 📊 Algorithmes implémentés
 
 ### Tri topologique (Kahn)
 Calcule un ordre valide de déblocage respectant toutes les dépendances. Vérifie l'absence de cycles dans le graphe.
 
-### BFS — Accessibilité
+### BFS, Accessibilité
 Depuis un nœud donné, détermine tous les talents accessibles en aval. Utilisé pour calculer l'impact stratégique d'un choix.
 
-### BFS inversé — Plus court chemin
+### BFS inversé, Plus court chemin
 Remonte les dépendances depuis un objectif pour trouver la séquence minimale de déblocages nécessaires.
 
 ### Analyse de sous-arbre
@@ -77,16 +72,11 @@ L'interface s'inspire des arbres de talents de jeux comme **Heroes of the Storm*
 - Effets de lueur (glow) selon le statut
 - Particules ambiantes
 - Thème médiéval-fantastique sombre
+Le positionnement spatial des nœuds dessine la forme globale d'une Citrouille (Objet Majeur du lore), mais le graphe est algorithmiquement impossible à compléter dans son intégralité, grâce au système complexe de conflits.
 
 ---
 
-## 📸 Images
-
-Chaque talent a un emplacement réservé pour un visuel. Pour ajouter des images :
-1. Placer les fichiers dans `images/`
-2. Nommer chaque fichier selon l'`id` du talent (ex: `approche_calme.png`)
-3. Les images apparaîtront dans les nœuds de l'arbre
 
 ---
 
-*Le Cavalier Sans Tête — Game Design Document — 2026*
+*Silent Reins - Jeu en cours de développement - 2026*
